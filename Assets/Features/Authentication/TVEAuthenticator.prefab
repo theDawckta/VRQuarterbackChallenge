@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000012343474294}
+  m_IsPrefabParent: 1
+--- !u!1 &1000012343474294
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4000011456508286}
+  - component: {fileID: 114000012012925066}
+  m_Layer: 0
+  m_Name: TVEAuthenticator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000011456508286
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012343474294}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114000012012925066
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012343474294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fab49eb4499104612b32af5954d2b0ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _osID: Android
+  _requestorName: TNT
+  _registrationUrl: http://www.nba.com/vr/activate
+  _privateKey: xy9NeoVXLDdvujdv
+  _publicKey: vvaxY2C0ZrJoD4vM5xQoY3a3hWSx5RzS
+  _providerConfigUrl: http://cvp1.cdn.turner.com/xslo/cvp/config/tnt/tve/0/mvpdconfig_android.xml
+  _tokenServiceUrl: http://token.vgtf.net/token/token_spe
+  RequestTimeout: 2
+  DemoLoginStatus: 0

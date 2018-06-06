@@ -1,0 +1,271 @@
+fileFormatVersion: 2
+guid: aced4b4c40047d845994c0a09c47a4e0
+timeCreated: 1503796313
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: NFLCity_Banner01
+    100004: NFLCity_Banner02
+    100006: NFLCity_Banner03
+    100008: NFLCity_Banner04
+    100010: NFLCity_Banner05
+    100012: NFLCity_Banner06
+    100014: NFLCity_Banner07
+    100016: NFLCity_Banner8
+    100018: NFLCity_Banners
+    100020: NFLCity_BannerWide01
+    100022: NFLCity_BannerWide02
+    100024: NFLCity_Blimp
+    100026: NFLCity_Building_Lights
+    100028: NFLCity_Buildings
+    100030: NFLCity_Buildings 1
+    100032: NFLCity_Effects_Lights
+    100034: NFLCity_Effects_Lights 1
+    100036: NFLCity_Effects_Lights_ANIM
+    100038: NFLCity_Effects_Lights_ANIM_01
+    100040: NFLCity_Effects_Lights_ANIM_01_Light1
+    100042: NFLCity_Effects_Lights_ANIM_01_Light2
+    100044: NFLCity_Effects_Lights_ANIM_02
+    100046: NFLCity_Effects_Lights_ANIM_02_Light1
+    100048: NFLCity_Effects_Lights_ANIM_02_Light2
+    100050: NFLCity_Effects_Lights_ANIM_03
+    100052: NFLCity_Effects_Lights_ANIM_03_Light1
+    100054: NFLCity_Effects_Lights_ANIM_03_Light2
+    100056: NFLCity_Effects_Lights_NFLShield
+    100058: NFLCity_Effects_Lights_NFLShield01
+    100060: NFLCity_Effects_Lights_NFLShield02
+    100062: NFLCity_NFLShield
+    100064: NFLCity_Rooftop
+    100066: NFLCity_Rooftop_BlackGlass
+    100068: NFLCity_Rooftop_BuildingMain
+    100070: NFLCity_Rooftop_Furnature
+    100072: NFLCity_Rooftop_GlowsPool
+    100074: NFLCity_Rooftop_GlowsWalkway
+    100076: NFLCity_Rooftop_Water
+    100078: NFLCity_Rooftop_YellowGlass
+    100080: NFLCity_Stadium
+    100082: NFLCity_Stadium_Base
+    100084: NFLCity_Stadium_Lights
+    100086: NFLCity_Stadium_Lights_SB
+    100088: NFLCity_Blimp_Main
+    400000: //RootNode
+    400002: NFLCity_Banner01
+    400004: NFLCity_Banner02
+    400006: NFLCity_Banner03
+    400008: NFLCity_Banner04
+    400010: NFLCity_Banner05
+    400012: NFLCity_Banner06
+    400014: NFLCity_Banner07
+    400016: NFLCity_Banner8
+    400018: NFLCity_Banners
+    400020: NFLCity_BannerWide01
+    400022: NFLCity_BannerWide02
+    400024: NFLCity_Blimp
+    400026: NFLCity_Building_Lights
+    400028: NFLCity_Buildings
+    400030: NFLCity_Buildings 1
+    400032: NFLCity_Effects_Lights
+    400034: NFLCity_Effects_Lights 1
+    400036: NFLCity_Effects_Lights_ANIM
+    400038: NFLCity_Effects_Lights_ANIM_01
+    400040: NFLCity_Effects_Lights_ANIM_01_Light1
+    400042: NFLCity_Effects_Lights_ANIM_01_Light2
+    400044: NFLCity_Effects_Lights_ANIM_02
+    400046: NFLCity_Effects_Lights_ANIM_02_Light1
+    400048: NFLCity_Effects_Lights_ANIM_02_Light2
+    400050: NFLCity_Effects_Lights_ANIM_03
+    400052: NFLCity_Effects_Lights_ANIM_03_Light1
+    400054: NFLCity_Effects_Lights_ANIM_03_Light2
+    400056: NFLCity_Effects_Lights_NFLShield
+    400058: NFLCity_Effects_Lights_NFLShield01
+    400060: NFLCity_Effects_Lights_NFLShield02
+    400062: NFLCity_NFLShield
+    400064: NFLCity_Rooftop
+    400066: NFLCity_Rooftop_BlackGlass
+    400068: NFLCity_Rooftop_BuildingMain
+    400070: NFLCity_Rooftop_Furnature
+    400072: NFLCity_Rooftop_GlowsPool
+    400074: NFLCity_Rooftop_GlowsWalkway
+    400076: NFLCity_Rooftop_Water
+    400078: NFLCity_Rooftop_YellowGlass
+    400080: NFLCity_Stadium
+    400082: NFLCity_Stadium_Base
+    400084: NFLCity_Stadium_Lights
+    400086: NFLCity_Stadium_Lights_SB
+    400088: NFLCity_Blimp_Main
+    2300000: NFLCity_Banner01
+    2300002: NFLCity_Banner02
+    2300004: NFLCity_Banner03
+    2300006: NFLCity_Banner04
+    2300008: NFLCity_Banner05
+    2300010: NFLCity_Banner06
+    2300012: NFLCity_Banner07
+    2300014: NFLCity_Banner8
+    2300016: NFLCity_BannerWide01
+    2300018: NFLCity_BannerWide02
+    2300020: NFLCity_Blimp
+    2300022: NFLCity_Building_Lights
+    2300024: NFLCity_Buildings 1
+    2300026: NFLCity_Effects_Lights 1
+    2300028: NFLCity_Effects_Lights_ANIM_01_Light1
+    2300030: NFLCity_Effects_Lights_ANIM_01_Light2
+    2300032: NFLCity_Effects_Lights_ANIM_02_Light1
+    2300034: NFLCity_Effects_Lights_ANIM_02_Light2
+    2300036: NFLCity_Effects_Lights_ANIM_03_Light1
+    2300038: NFLCity_Effects_Lights_ANIM_03_Light2
+    2300040: NFLCity_Effects_Lights_NFLShield01
+    2300042: NFLCity_Effects_Lights_NFLShield02
+    2300044: NFLCity_NFLShield
+    2300046: NFLCity_Rooftop_BlackGlass
+    2300048: NFLCity_Rooftop_BuildingMain
+    2300050: NFLCity_Rooftop_Furnature
+    2300052: NFLCity_Rooftop_GlowsPool
+    2300054: NFLCity_Rooftop_GlowsWalkway
+    2300056: NFLCity_Rooftop_Water
+    2300058: NFLCity_Rooftop_YellowGlass
+    2300060: NFLCity_Stadium_Base
+    2300062: NFLCity_Stadium_Lights
+    2300064: NFLCity_Stadium_Lights_SB
+    2300066: //RootNode
+    2300068: NFLCity_Blimp_Main
+    3300000: NFLCity_Banner01
+    3300002: NFLCity_Banner02
+    3300004: NFLCity_Banner03
+    3300006: NFLCity_Banner04
+    3300008: NFLCity_Banner05
+    3300010: NFLCity_Banner06
+    3300012: NFLCity_Banner07
+    3300014: NFLCity_Banner8
+    3300016: NFLCity_BannerWide01
+    3300018: NFLCity_BannerWide02
+    3300020: NFLCity_Blimp
+    3300022: NFLCity_Building_Lights
+    3300024: NFLCity_Buildings 1
+    3300026: NFLCity_Effects_Lights 1
+    3300028: NFLCity_Effects_Lights_ANIM_01_Light1
+    3300030: NFLCity_Effects_Lights_ANIM_01_Light2
+    3300032: NFLCity_Effects_Lights_ANIM_02_Light1
+    3300034: NFLCity_Effects_Lights_ANIM_02_Light2
+    3300036: NFLCity_Effects_Lights_ANIM_03_Light1
+    3300038: NFLCity_Effects_Lights_ANIM_03_Light2
+    3300040: NFLCity_Effects_Lights_NFLShield01
+    3300042: NFLCity_Effects_Lights_NFLShield02
+    3300044: NFLCity_NFLShield
+    3300046: NFLCity_Rooftop_BlackGlass
+    3300048: NFLCity_Rooftop_BuildingMain
+    3300050: NFLCity_Rooftop_Furnature
+    3300052: NFLCity_Rooftop_GlowsPool
+    3300054: NFLCity_Rooftop_GlowsWalkway
+    3300056: NFLCity_Rooftop_Water
+    3300058: NFLCity_Rooftop_YellowGlass
+    3300060: NFLCity_Stadium_Base
+    3300062: NFLCity_Stadium_Lights
+    3300064: NFLCity_Stadium_Lights_SB
+    3300066: //RootNode
+    3300068: NFLCity_Blimp_Main
+    4300000: NFLCity_NFLShield
+    4300002: NFLCity_Blimp
+    4300004: NFLCity_Banner01
+    4300006: NFLCity_Banner02
+    4300008: NFLCity_BannerWide01
+    4300010: NFLCity_Banner03
+    4300012: NFLCity_Banner04
+    4300014: NFLCity_Banner05
+    4300016: NFLCity_Banner06
+    4300018: NFLCity_Banner07
+    4300020: NFLCity_BannerWide02
+    4300022: NFLCity_Banner8
+    4300024: NFLCity_Effects_Lights_ANIM_01_Light1
+    4300026: NFLCity_Effects_Lights_ANIM_01_Light2
+    4300028: NFLCity_Effects_Lights_ANIM_02_Light1
+    4300030: NFLCity_Effects_Lights_ANIM_02_Light2
+    4300032: NFLCity_Effects_Lights_ANIM_03_Light1
+    4300034: NFLCity_Effects_Lights_ANIM_03_Light2
+    4300036: NFLCity_Effects_Lights_NFLShield01
+    4300038: NFLCity_Effects_Lights_NFLShield02
+    4300040: NFLCity_Effects_Lights
+    4300042: NFLCity_Stadium_Base
+    4300044: NFLCity_Stadium_Lights_SB
+    4300046: NFLCity_Stadium_Lights
+    4300048: NFLCity_Buildings
+    4300050: NFLCity_Building_Lights
+    4300052: NFLCity_Rooftop_YellowGlass
+    4300054: NFLCity_Rooftop_BlackGlass
+    4300056: NFLCity_Rooftop_BuildingMain
+    4300058: NFLCity_Rooftop_Water
+    4300060: NFLCity_Rooftop_Furnature
+    4300062: NFLCity_Rooftop_GlowsWalkway
+    4300064: NFLCity_Rooftop_GlowsPool
+    4300066: NFLCity_Blimp_Main
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

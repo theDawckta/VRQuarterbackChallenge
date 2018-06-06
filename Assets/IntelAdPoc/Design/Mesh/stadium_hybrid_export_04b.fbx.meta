@@ -1,0 +1,237 @@
+fileFormatVersion: 2
+guid: c175d8181b04754429df67f42bb408a8
+timeCreated: 1527717086
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: cloudSphere
+    100002: field_center_geo
+    100004: field_large_geo
+    100006: field_posts_geo
+    100008: field_pylons_geo
+    100010: field_yardmarkers_geo
+    100012: fizzyLogo_jumbo_geo
+    100014: fizzyLogoStand_jumbo_geo
+    100016: flash_geo
+    100018: jumbotron_screen_center
+    100020: jumbotron_screen_l_geo
+    100022: jumbotron_screen_r_geo
+    100024: photosphere_geo
+    100026: player_benches_geo
+    100028: stadium_advertisements.001
+    100030: //RootNode
+    400000: cloudSphere
+    400002: field_center_geo
+    400004: field_large_geo
+    400006: field_posts_geo
+    400008: field_pylons_geo
+    400010: field_yardmarkers_geo
+    400012: fizzyLogo_jumbo_geo
+    400014: fizzyLogoStand_jumbo_geo
+    400016: flash_geo
+    400018: jumbotron_screen_center
+    400020: jumbotron_screen_l_geo
+    400022: jumbotron_screen_r_geo
+    400024: photosphere_geo
+    400026: player_benches_geo
+    400028: stadium_advertisements.001
+    400030: //RootNode
+    2300000: cloudSphere
+    2300002: field_center_geo
+    2300004: field_large_geo
+    2300006: field_posts_geo
+    2300008: field_pylons_geo
+    2300010: field_yardmarkers_geo
+    2300012: fizzyLogo_jumbo_geo
+    2300014: fizzyLogoStand_jumbo_geo
+    2300016: flash_geo
+    2300018: jumbotron_screen_center
+    2300020: jumbotron_screen_l_geo
+    2300022: jumbotron_screen_r_geo
+    2300024: photosphere_geo
+    2300026: player_benches_geo
+    2300028: stadium_advertisements.001
+    3300000: cloudSphere
+    3300002: field_center_geo
+    3300004: field_large_geo
+    3300006: field_posts_geo
+    3300008: field_pylons_geo
+    3300010: field_yardmarkers_geo
+    3300012: fizzyLogo_jumbo_geo
+    3300014: fizzyLogoStand_jumbo_geo
+    3300016: flash_geo
+    3300018: jumbotron_screen_center
+    3300020: jumbotron_screen_l_geo
+    3300022: jumbotron_screen_r_geo
+    3300024: photosphere_geo
+    3300026: player_benches_geo
+    3300028: stadium_advertisements.001
+    4300000: flash_geo
+    4300002: fizzyLogoStand_jumbo_geo
+    4300004: fizzyLogo_jumbo_geo
+    4300006: jumbotron_screen_l_geo
+    4300008: field_center_geo
+    4300010: field_large_geo
+    4300012: photosphere_geo
+    4300014: player_benches_geo
+    4300016: field_yardmarkers_geo
+    4300018: field_pylons_geo
+    4300020: field_posts_geo
+    4300022: jumbotron_screen_center
+    4300024: jumbotron_screen_r_geo
+    4300026: stadium_advertisements.001
+    4300028: cloudSphere
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: adsBase
+    second: {fileID: 2100000, guid: 220bf734b36a3944d96d2139a53b32e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blackmetal
+    second: {fileID: 2100000, guid: 4bc80762afa718a4d87f2459dbf56639, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: centerField_mat
+    second: {fileID: 2100000, guid: 2be73ff0c357e6c4ea79168947cac394, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: field_mat
+    second: {fileID: 2100000, guid: 6ee4fab43e52fea4789cc869bc902974, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fizzyLogo_horizontal_TSP
+    second: {fileID: 2100000, guid: 649b4347386adb54ab706aaffb5aaad3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: goal_post
+    second: {fileID: 2100000, guid: 143f2442f8baebe47b4496a77390f4cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jumbo_side_c_clr
+    second: {fileID: 2100000, guid: 50392fccb86335f40b95b4b19fc3f9b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jumbo_side_l_clr
+    second: {fileID: 2100000, guid: d45391c69060b2d4f80f54ce6401d468, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jumbo_side_r_clr
+    second: {fileID: 2100000, guid: 5bca77c49f79c134f8075265dc24487e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: photoshpere
+    second: {fileID: 2100000, guid: a4d3314cdf0f56948953de1b6448654c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: player_bench
+    second: {fileID: 2100000, guid: aa7eaa2db6b37c54cb3d21a4612cd458, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pylon
+    second: {fileID: 2100000, guid: 8fca1235096c2734db303685fb01b5b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sky
+    second: {fileID: 2100000, guid: 4792fe9b915678a4da7934d1a71caceb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stadium_advertisements.001
+    second: {fileID: 2100000, guid: ac970ae30b8ab3040b1e6a0824a04e44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: yard_markers
+    second: {fileID: 2100000, guid: a4ea05cfd96019c47b037d5dab5cf917, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

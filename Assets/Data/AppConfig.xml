@@ -1,0 +1,216 @@
+
+<VokeAppConfiguration>
+  <Resources>
+    <Resource ID="NCAABasketballTeamsUrl">http://config.vokevr.com/vokegearvrapp/VokeAssets/JSON/NCAABasketballTeams.json</Resource>
+    <Resource ID="NCAAFootballTeamsUrl">http://config.vokevr.com/vokegearvrapp/VokeAssets/JSON/NCAAFootballTeams.json</Resource>
+    <Resource ID="NFLTeamsUrl">http://config.vokevr.com/vokegearvrapp/VokeAssets/JSON/NFLTeams.json</Resource>
+    <Resource ID="NBATeamsUrl">http://appconfig.vokevr.com/vokevrapp/data/NBATeams.json</Resource>
+    <Resource ID="MLBTeamsUrl">http://config.vokevr.com/vokegearvrapp/VokeAssets/JSON/MLBTeams2.json</Resource>
+    <Resource ID="BTNLogoUrl">http://appconfig.vokevr.com/vokevrapp/images/scoreboard/scoreboard_branded-btn.png</Resource>
+    <Resource ID="NCAALogoUrl">http://appconfig.vokevr.com/vokevrapp/images/scoreboard/scoreboard_branded-ncaa.png</Resource>
+    <Resource ID="NFLLogoUrl">http://appconfig.vokevr.com/vokevrapp/images/scoreboard/scoreboard_branded-nfl.png</Resource>
+    <Resource ID="MLBLogoUrl">http://appconfig.vokevr.com/vokevrapp/images/scoreboard/scoreboard_branded-mlb.png</Resource>
+    <Resource ID="GeoblockURL">http://54.68.21.16/mlb_geoblock/api/1.1/GeoBlockedCheck.php?</Resource>
+    <Resource ID="TurnerAuthenticationURL">http://www.qa.beta.nba.com/vr/activate?input=</Resource>
+    <Resource ID="StatUrlFormat">http://35.164.33.251/vokegamestore/api/1.0/games/getStatisticsByGame?game_id={0}</Resource>
+    <Resource ID="BaseballStatUrlFormat">http://54.68.21.16/vokemlbgamestore/api/1.3/games/getMlbBoxscoreData?game_id={0}</Resource>
+    <Resource ID="ForceUpdateVersion">0.9</Resource>
+    <Resource ID="ForceUpdateMessage">An update is available. Please upgrade your app to experience the latest features.</Resource>
+  </Resources>
+  <DeviceList>
+    <Device>SM-G950</Device>
+  </DeviceList>
+  <EnvironmentID>Home</EnvironmentID>
+  <ContentsDefinition>
+    <Content ID="73e3f1bf-6f1d-410b-b289-966424431e63">
+      <ContentType>CHANNEL</ContentType>
+      <BackgroundImageUrl>http://config.vokevr.com/vokegearvrapp/2017-NFL/TileImages/Game_5_colts_ravens_w_TrueVR.png</BackgroundImageUrl>
+      <CaptionLine1>Colts at Ravens</CaptionLine1>
+      <CaptionLine2>Multicam Highlights</CaptionLine2>
+      <IsLive>false</IsLive>
+      <ContentsList>
+        <Content ID="ada5071b-e277-4f57-b4e6-e9d7eb82511f">
+          <ContentType>CLIP</ContentType>
+          <EnvironmentID>ColtsvRavens</EnvironmentID>
+          <BackgroundImageUrl>http://config.vokevr.com/vokegearvrapp/2017-NFL/TileImages/Game_5_colts_ravens_w_TrueVR.png</BackgroundImageUrl>
+          <CameraLayoutUrl>http://appconfig.vokevr.com/vokevrapp/environments/cameralayout/camera-layout-football.png</CameraLayoutUrl>
+          <CaptionLine1></CaptionLine1>
+          <CaptionLine2>Ravens block FG</CaptionLine2>
+          <StreamUrlsList>
+            <StreamUrl Label="Left FG" OffsetX="0.8">http://live.vokevr.com/2017NFLPilot/20171223ColtsAtRavens/stereoscopic/pod1/master_highlight1.m3u8</StreamUrl>
+            <StreamUrl Label="Game Camera" OffsetZ="0.9" IsVRCast="false" Rotation="90">http://live.vokevr.com/2017NFLPilot/20171223ColtsAtRavens/stereoscopic/pod2/master_highlight1.m3u8</StreamUrl>
+            <!--StreamUrl Label="Right FG" OffsetX="-0.8" Rotation="180">http://live.vokevr.com/2017NFLPilot/20171223ColtsAtRavens/stereoscopic/pod3/master_highlight1.m3u8</StreamUrl-->
+            <StreamUrl Label="Left Far EZ" OffsetX="1.0" OffsetZ="-.8" Rotation="0">http://live.vokevr.com/2017NFLPilot/20171223ColtsAtRavens/stereoscopic/pod4/master_highlight1.m3u8</StreamUrl>
+            <!--StreamUrl Label="Right Near EZ" OffsetX="-1.1" OffsetZ="0.7" Rotation="180">http://live.vokevr.com/2017NFLPilot/20171223ColtsAtRavens/stereoscopic/pod5/master_highlight1.m3u8</StreamUrl>
+      <StreamUrl Label="High Slash" OffsetX="1.5" OffsetZ="-0.7" Rotation="315">http://live.vokevr.com/2017NFLPilot/20171223ColtsAtRavens/stereoscopic/pod6/master_highlight1.m3u8</StreamUrl-->
+          </StreamUrlsList>
+          <Tags>
+            <Tag>NFL</Tag>
+          </Tags>
+        </Content>
+      </ContentsList>
+    </Content>
+
+    <Content ID="0255a467-66ea-4624-b012-6f3964d17be5">
+      <ContentType>CHANNEL</ContentType>
+      <BackgroundImageUrl>http://config.vokevr.com/vokegearvrapp/2017-NFL/TileImages/Game_4_chargers_vs_chiefs.png</BackgroundImageUrl>
+      <CaptionLine1>Chargers at Chiefs</CaptionLine1>
+      <CaptionLine2>16th Dec, 2017</CaptionLine2>
+      <IsLive>false</IsLive>
+      <ContentsList>
+        <Content ID="339b5d81-f170-4b6c-bd31-5f6e57a98d00">
+          <ContentType>CLIP</ContentType>
+          <EnvironmentID>ChargersvChiefs</EnvironmentID>
+          <BackgroundImageUrl>http://config.vokevr.com/vokegearvrapp/2017-NFL/TileImages/Game_4_recap_chargers_vs_chiefs.png</BackgroundImageUrl>
+          <CameraLayoutUrl>http://appconfig.vokevr.com/vokevrapp/environments/cameralayout/camera-layout-football.png</CameraLayoutUrl>
+          <CaptionLine1>Chargers at Chiefs</CaptionLine1>
+          <CaptionLine2>16th Dec, 2017</CaptionLine2>
+          <!--HighlightsList>
+        <Highlight Timecode="00:00:10" Type="freeD">http://live-origin.vokevr.com/2017NFLPilot/20170921RamsAt49ers/clip01/master_clip.m3u8</Highlight>
+        <Highlight Timecode="00:01:30" Type="freeD">http://live-origin.vokevr.com/2017NFLPilot/20170921RamsAt49ers/clip01/master_clip.m3u8</Highlight>
+        <Highlight Timecode="00:03:00" Type="freeD">http://live-origin.vokevr.com/2017NFLPilot/20170921RamsAt49ers/clip01/master_clip.m3u8</Highlight>
+        </HighlightsList-->
+          <IsRecap>true</IsRecap>
+          <StreamUrlsList>
+            <StreamUrl Label="VRCast">
+              <HEVC>http://live.vokevr.com/2017NFLPilot/20171216ChargersAtChiefs/stereoscopic/pod2/recapFeatureHEVC.m3u8</HEVC>
+              <H264>http://live.vokevr.com/2017NFLPilot/20171216ChargersAtChiefs/stereoscopic/pod1/recapFeatureH264.m3u8</H264>
+            </StreamUrl>
+          </StreamUrlsList>
+          <Tags>
+            <Tag>NFL</Tag>
+          </Tags>
+        </Content>
+      </ContentsList>
+    </Content>
+
+    <Content ID="93082242-84ec-4d4e-97ea-95a8c9965021">
+      <ContentType>CHANNEL</ContentType>
+      <BackgroundImageUrl>http://config.vokevr.com/vokegearvrapp/2017-NFL/TileImages/Game_3_bills_vs_jets.png</BackgroundImageUrl>
+      <CaptionLine1>Bills At Jets</CaptionLine1>
+      <CaptionLine2>2nd Nov, 2017</CaptionLine2>
+      <IsLive>false</IsLive>
+      <ContentsList>
+        <Content ID="e548ade7-7bfe-4f68-9af8-e1dc34ce079b">
+          <ContentType>CLIP</ContentType>
+          <EnvironmentID>BillsvJets</EnvironmentID>
+          <BackgroundImageUrl>http://config.vokevr.com/vokegearvrapp/2017-NFL/TileImages/Game_3_recap_bills_vs_jets.png</BackgroundImageUrl>
+          <CameraLayoutUrl>http://appconfig.vokevr.com/vokevrapp/environments/cameralayout/camera-layout-football.png</CameraLayoutUrl>
+          <CaptionLine1>Bills at Jets</CaptionLine1>
+          <CaptionLine2>2nd Nov, 2017</CaptionLine2>
+          <!--HighlightsList>
+                  <Highlight Timecode="00:00:10" Type="freeD">http://live-origin.vokevr.com/2017NFLPilot/20170921RamsAt49ers/clip01/master_clip.m3u8</Highlight>
+                  <Highlight Timecode="00:01:30" Type="freeD">http://live-origin.vokevr.com/2017NFLPilot/20170921RamsAt49ers/clip01/master_clip.m3u8</Highlight>
+                  <Highlight Timecode="00:03:00" Type="freeD">http://live-origin.vokevr.com/2017NFLPilot/20170921RamsAt49ers/clip01/master_clip.m3u8</Highlight>
+                </HighlightsList-->
+          <IsRecap>true</IsRecap>
+          <StreamUrlsList>
+            <StreamUrl Label="VRCast">
+              <HEVC>http://live.vokevr.com/2017NFLPilot/20171102BillsAtJets/recap/hevc/recap_master.m3u8</HEVC>
+              <H264>http://live.vokevr.com/2017NFLPilot/20171102BillsAtJets/recap/h264/recap_master.m3u8</H264>
+            </StreamUrl>
+          </StreamUrlsList>
+          <Tags>
+            <Tag>NFL</Tag>
+          </Tags>
+        </Content>
+      </ContentsList>
+    </Content>
+
+    <Content ID="a72c33f1-30e5-402d-b749-c0c029323879">
+      <ContentType>CHANNEL</ContentType>
+      <BackgroundImageUrl>http://config.vokevr.com/vokegearvrapp/2017-NFL/TileImages/Game_2_rams_vs_49ers.png</BackgroundImageUrl>
+      <CaptionLine1>Rams at 49ers</CaptionLine1>
+      <CaptionLine2>21st Sept, 2017</CaptionLine2>
+      <IsLive>false</IsLive>
+      <ContentsList>
+        <Content ID="2d302b91-17b0-4ec3-8346-f4620fdfd7c9">
+          <ContentType>CLIP</ContentType>
+          <EnvironmentID>Ramsv49ers</EnvironmentID>
+          <BackgroundImageUrl>http://config.vokevr.com/vokegearvrapp/2017-NFL/TileImages/Game_2_rams_vs_49ers.png</BackgroundImageUrl>
+          <CameraLayoutUrl>http://appconfig.vokevr.com/vokevrapp/environments/cameralayout/camera-layout-football.png</CameraLayoutUrl>
+          <CaptionLine1>Rams at 49ers</CaptionLine1>
+          <CaptionLine2>21st Sept, 2017</CaptionLine2>
+          <!--HighlightsList>
+            <Highlight Timecode="00:00:10" Type="freeD">http://live-origin.vokevr.com/2017NFLPilot/20170921RamsAt49ers/clip01/master_clip.m3u8</Highlight>
+            <Highlight Timecode="00:01:30" Type="freeD">http://live-origin.vokevr.com/2017NFLPilot/20170921RamsAt49ers/clip01/master_clip.m3u8</Highlight>
+            <Highlight Timecode="00:03:00" Type="freeD">http://live-origin.vokevr.com/2017NFLPilot/20170921RamsAt49ers/clip01/master_clip.m3u8</Highlight>
+          </HighlightsList-->
+          <IsRecap>true</IsRecap>
+          <StreamUrlsList>
+            <StreamUrl Label="VRCast">
+              <HEVC>http://live-origin.vokevr.com/2017NFLPilot/20170921RamsAt49ers/recap/pod2/master_recap.m3u8</HEVC>
+              <H264>http://live-origin.vokevr.com/2017NFLPilot/20170921RamsAt49ers/recap/pod1/master_recap.m3u8</H264>
+            </StreamUrl>
+          </StreamUrlsList>
+          <Tags>
+            <Tag>NFL</Tag>
+          </Tags>
+        </Content>
+      </ContentsList>
+    </Content>
+
+    <Content ID="69fbb739-67fa-4eb5-be25-3d19b9fac083">
+      <ContentType>CHANNEL</ContentType>
+      <BackgroundImageUrl>http://config.vokevr.com/vokegearvrapp/2017-NFL/TileImages/Game_1_texans_vs_bengals.png</BackgroundImageUrl>
+      <CameraLayoutUrl>http://appconfig.vokevr.com/vokevrapp/environments/cameralayout/camera-layout-football.png</CameraLayoutUrl>
+      <CaptionLine1>Texans at Bengals</CaptionLine1>
+      <CaptionLine2>14th Sept, 2017</CaptionLine2>
+      <IsLive>false</IsLive>
+      <ContentsList>
+        <Content ID="9da4b254-22f7-45f4-8b78-c91541ca8ede">
+          <ContentType>CLIP</ContentType>
+          <EnvironmentID>TexansvBengals</EnvironmentID>
+          <BackgroundImageUrl>http://config.vokevr.com/vokegearvrapp/2017-NFL/TileImages/Game_1_texans_vs_bengals.png</BackgroundImageUrl>
+          <CameraLayoutUrl>http://appconfig.vokevr.com/vokevrapp/environments/cameralayout/camera-layout-football.png</CameraLayoutUrl>
+          <CaptionLine1>Texans at Bengals</CaptionLine1>
+          <CaptionLine2>14th Sept, 2017</CaptionLine2>
+          <IsLive>false</IsLive>
+          <IsRecap>true</IsRecap>
+          <IsUpcoming>false</IsUpcoming>
+          <IsFullReplay>false</IsFullReplay>
+          <IsBeta>false</IsBeta>
+          <IsHighlight>false</IsHighlight>
+          <StreamUrlsList>
+            <StreamUrl Label="VRCast" IsVRCast="true">http://live.vokevr.com/2017NLFPilot/20170914TexansAtBengals/recap/pod1/master_highlight_01.m3u8</StreamUrl>
+          </StreamUrlsList>
+          <Tags>
+            <Tag>NFL</Tag>
+          </Tags>
+        </Content>
+      </ContentsList>
+    </Content>
+
+    <Content ID="69fbb739-67fa-4eb5-be25-3d19b9fac083">
+      <ContentType>CHANNEL</ContentType>
+      <BackgroundImageUrl>http://config.vokevr.com/vokegearvrapp/2017-NFL/TileImages/Game_1_texans_vs_bengals.png</BackgroundImageUrl>
+      <CameraLayoutUrl>http://appconfig.vokevr.com/vokevrapp/environments/cameralayout/camera-layout-football.png</CameraLayoutUrl>
+      <CaptionLine1>Texans at Bengals</CaptionLine1>
+      <CaptionLine2>14th Sept, 2017</CaptionLine2>
+      <IsLive>false</IsLive>
+      <ContentsList>
+        <Content ID="9da4b254-22f7-45f4-8b78-c91541ca8ede">
+          <ContentType>CLIP</ContentType>
+          <EnvironmentID>TexansvBengals</EnvironmentID>
+          <BackgroundImageUrl>http://config.vokevr.com/vokegearvrapp/2017-NFL/TileImages/Game_1_texans_vs_bengals.png</BackgroundImageUrl>
+          <CameraLayoutUrl>http://appconfig.vokevr.com/vokevrapp/environments/cameralayout/camera-layout-football.png</CameraLayoutUrl>
+          <CaptionLine1>Texans at Bengals</CaptionLine1>
+          <CaptionLine2>14th Sept, 2017</CaptionLine2>
+          <IsLive>false</IsLive>
+          <IsRecap>true</IsRecap>
+          <IsUpcoming>false</IsUpcoming>
+          <IsFullReplay>false</IsFullReplay>
+          <IsBeta>false</IsBeta>
+          <IsHighlight>false</IsHighlight>
+          <StreamUrlsList>
+            <StreamUrl Label="VRCast" IsVRCast="true">http://live.vokevr.com/2017NLFPilot/20170914TexansAtBengals/recap/pod1/master_highlight_01.m3u8</StreamUrl>
+          </StreamUrlsList>
+          <Tags>
+            <Tag>NFL</Tag>
+          </Tags>
+        </Content>
+      </ContentsList>
+    </Content>
+  </ContentsDefinition>
+
+</VokeAppConfiguration>

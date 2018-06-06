@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 22e55925a1e42e5498ebbe442b845078
+timeCreated: 1482368914
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Intel Clear
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: d32b97be0feda4704970761d38fa18bb, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

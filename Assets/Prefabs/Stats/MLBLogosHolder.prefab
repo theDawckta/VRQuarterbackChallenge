@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1926641969103974}
+  m_IsPrefabParent: 1
+--- !u!1 &1926641969103974
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4303225378899104}
+  - component: {fileID: 114134877918980444}
+  m_Layer: 0
+  m_Name: MLBLogosHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4303225378899104
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1926641969103974}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114134877918980444
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1926641969103974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10f6672bbf4e43740802ca7e51d01726, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LogoTargets:
+  - Name: Ari
+    LogoSprite: {fileID: 21300000, guid: e52808567d0080843ade4a671628b494, type: 3}
+  - Name: Atl
+    LogoSprite: {fileID: 21300000, guid: b484a2016c567274897908badb25ff77, type: 3}
+  - Name: Bal
+    LogoSprite: {fileID: 21300000, guid: ae25114c937b28442861e1af3ce21ffd, type: 3}
+  - Name: Bos
+    LogoSprite: {fileID: 21300000, guid: e2f94b16b8b53d84faed120d41fe3a9c, type: 3}
+  - Name: ChC
+    LogoSprite: {fileID: 21300000, guid: aeddd34e293134e4ca261742623b0af8, type: 3}
+  - Name: CWS
+    LogoSprite: {fileID: 21300000, guid: ceddda7ed6cefa74aa7ac28673f19755, type: 3}
+  - Name: Cin
+    LogoSprite: {fileID: 21300000, guid: 52316f1d6896c5a469eb3358c8f0c54f, type: 3}
+  - Name: Cle
+    LogoSprite: {fileID: 21300000, guid: 6095921842453f94bb819cce43e57830, type: 3}
+  - Name: Col
+    LogoSprite: {fileID: 21300000, guid: d412b833691ffaa4faf8b8d6ff0cf392, type: 3}
+  - Name: Det
+    LogoSprite: {fileID: 21300000, guid: 763dc41b806e7014fa6294f09a441eae, type: 3}
+  - Name: Hou
+    LogoSprite: {fileID: 21300000, guid: e2f7cfc78b3c26341ade21533d85666f, type: 3}
+  - Name: KC
+    LogoSprite: {fileID: 21300000, guid: 22891245780e8f441806361f6273d255, type: 3}
+  - Name: LAA
+    LogoSprite: {fileID: 21300000, guid: fe74033443a01ce49aa462cde84c6f94, type: 3}
+  - Name: LAD
+    LogoSprite: {fileID: 21300000, guid: 2fe71d494027ed74c90f0dcafaf337f6, type: 3}
+  - Name: Mia
+    LogoSprite: {fileID: 21300000, guid: e9b31b97ebee4f54096d820f5c31fa66, type: 3}
+  - Name: Mil
+    LogoSprite: {fileID: 21300000, guid: 8b1d0a3d4397b5944aff412dc0f402a9, type: 3}
+  - Name: Min
+    LogoSprite: {fileID: 21300000, guid: 6fe4e1bae4d2a394aae76cb25072c28a, type: 3}
+  - Name: NYM
+    LogoSprite: {fileID: 21300000, guid: a9389d22b615ef6498f841fe4cf18463, type: 3}
+  - Name: NYY
+    LogoSprite: {fileID: 21300000, guid: 4675b77cd6236284f9c89da05eb64ad7, type: 3}
+  - Name: Oak
+    LogoSprite: {fileID: 21300000, guid: 571004d4eb8fb12468a8c87855035b31, type: 3}
+  - Name: Phi
+    LogoSprite: {fileID: 21300000, guid: e8a3d5880f6fbc843960a27eef9762ef, type: 3}
+  - Name: Pit
+    LogoSprite: {fileID: 21300000, guid: 73b448dfda07387429dd58432945048b, type: 3}
+  - Name: SD
+    LogoSprite: {fileID: 21300000, guid: 7a718e25aaa3408418e552b5ca4f5744, type: 3}
+  - Name: SF
+    LogoSprite: {fileID: 21300000, guid: 5ab1319fbaa1d564985fcd387dce0d48, type: 3}
+  - Name: Sea
+    LogoSprite: {fileID: 21300000, guid: 941308b0e0a726e40a58b8bbacfd1b9f, type: 3}
+  - Name: StL
+    LogoSprite: {fileID: 21300000, guid: cb9bd8500ae9b4448bdf625df4864230, type: 3}
+  - Name: TB
+    LogoSprite: {fileID: 21300000, guid: 3950188e5bd7abf439d67ffccc244029, type: 3}
+  - Name: Tex
+    LogoSprite: {fileID: 21300000, guid: 9598e9d313fe7f84b956b0067c40c673, type: 3}
+  - Name: Tor
+    LogoSprite: {fileID: 21300000, guid: ff5facbcc884fdc45a63b64375d80ab5, type: 3}
+  - Name: Was
+    LogoSprite: {fileID: 21300000, guid: 201207ef31c42594fb43d959e0566b6d, type: 3}

@@ -1,0 +1,220 @@
+fileFormatVersion: 2
+guid: bad3eeda184785c4587e80440f7407cd
+timeCreated: 1501192071
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: center_screen_geo
+    100002: scoreboard_arrow_group
+    100004: scoreboard_arrow_L_geo
+    100006: scoreboard_arrow_R_geo
+    100008: scoreboard_base
+    100010: //RootNode
+    100012: scoreboard_timeout_group
+    100014: scoreboard_timeout_L_geo1
+    100016: scoreboard_timeout_L_geo2
+    100018: scoreboard_timeout_L_geo3
+    100020: scoreboard_timeout_L_geo4
+    100022: scoreboard_timeout_L_geo5
+    100024: scoreboard_timeout_L_group
+    100026: scoreboard_timeout_R_geo1
+    100028: scoreboard_timeout_R_geo2
+    100030: scoreboard_timeout_R_geo3
+    100032: scoreboard_timeout_R_geo4
+    100034: scoreboard_timeout_R_geo5
+    100036: scoreboard_timeout_R_group
+    100038: sponsorship_L_screen_geo
+    100040: sponsorship_R_screen_geo
+    100042: sponsorship_screen_group
+    100044: teamHeadshot_L_geo
+    100046: teamHeadshot_L_GROUP
+    100048: teamHeadshot_R_geo
+    100050: teamHeadshot_R_GROUP
+    100052: teamHeadshotDataFrame_L_geo
+    100054: teamHeadshotDataFrame_R_geo
+    100056: teamHeadshotFrame_L_geo
+    100058: teamHeadshotFrame_L_GROUP
+    100060: teamHeadshotFrame_R_geo
+    100062: teamHeadshotFrame_R_GROUP
+    100064: teamTile_L_tile_geo
+    100066: teamTile_R_tile_geo
+    100068: teamTile_tile_group
+    400000: center_screen_geo
+    400002: scoreboard_arrow_group
+    400004: scoreboard_arrow_L_geo
+    400006: scoreboard_arrow_R_geo
+    400008: scoreboard_base
+    400010: //RootNode
+    400012: scoreboard_timeout_group
+    400014: scoreboard_timeout_L_geo1
+    400016: scoreboard_timeout_L_geo2
+    400018: scoreboard_timeout_L_geo3
+    400020: scoreboard_timeout_L_geo4
+    400022: scoreboard_timeout_L_geo5
+    400024: scoreboard_timeout_L_group
+    400026: scoreboard_timeout_R_geo1
+    400028: scoreboard_timeout_R_geo2
+    400030: scoreboard_timeout_R_geo3
+    400032: scoreboard_timeout_R_geo4
+    400034: scoreboard_timeout_R_geo5
+    400036: scoreboard_timeout_R_group
+    400038: sponsorship_L_screen_geo
+    400040: sponsorship_R_screen_geo
+    400042: sponsorship_screen_group
+    400044: teamHeadshot_L_geo
+    400046: teamHeadshot_L_GROUP
+    400048: teamHeadshot_R_geo
+    400050: teamHeadshot_R_GROUP
+    400052: teamHeadshotDataFrame_L_geo
+    400054: teamHeadshotDataFrame_R_geo
+    400056: teamHeadshotFrame_L_geo
+    400058: teamHeadshotFrame_L_GROUP
+    400060: teamHeadshotFrame_R_geo
+    400062: teamHeadshotFrame_R_GROUP
+    400064: teamTile_L_tile_geo
+    400066: teamTile_R_tile_geo
+    400068: teamTile_tile_group
+    2300000: center_screen_geo
+    2300002: scoreboard_arrow_L_geo
+    2300004: scoreboard_arrow_R_geo
+    2300006: scoreboard_base
+    2300008: scoreboard_timeout_L_geo1
+    2300010: scoreboard_timeout_L_geo2
+    2300012: scoreboard_timeout_L_geo3
+    2300014: scoreboard_timeout_L_geo4
+    2300016: scoreboard_timeout_L_geo5
+    2300018: scoreboard_timeout_R_geo1
+    2300020: scoreboard_timeout_R_geo2
+    2300022: scoreboard_timeout_R_geo3
+    2300024: scoreboard_timeout_R_geo4
+    2300026: scoreboard_timeout_R_geo5
+    2300028: sponsorship_L_screen_geo
+    2300030: sponsorship_R_screen_geo
+    2300032: teamHeadshot_L_geo
+    2300034: teamHeadshot_R_geo
+    2300036: teamHeadshotDataFrame_L_geo
+    2300038: teamHeadshotDataFrame_R_geo
+    2300040: teamHeadshotFrame_L_geo
+    2300042: teamHeadshotFrame_R_geo
+    2300044: teamTile_L_tile_geo
+    2300046: teamTile_R_tile_geo
+    3300000: center_screen_geo
+    3300002: scoreboard_arrow_L_geo
+    3300004: scoreboard_arrow_R_geo
+    3300006: scoreboard_base
+    3300008: scoreboard_timeout_L_geo1
+    3300010: scoreboard_timeout_L_geo2
+    3300012: scoreboard_timeout_L_geo3
+    3300014: scoreboard_timeout_L_geo4
+    3300016: scoreboard_timeout_L_geo5
+    3300018: scoreboard_timeout_R_geo1
+    3300020: scoreboard_timeout_R_geo2
+    3300022: scoreboard_timeout_R_geo3
+    3300024: scoreboard_timeout_R_geo4
+    3300026: scoreboard_timeout_R_geo5
+    3300028: sponsorship_L_screen_geo
+    3300030: sponsorship_R_screen_geo
+    3300032: teamHeadshot_L_geo
+    3300034: teamHeadshot_R_geo
+    3300036: teamHeadshotDataFrame_L_geo
+    3300038: teamHeadshotDataFrame_R_geo
+    3300040: teamHeadshotFrame_L_geo
+    3300042: teamHeadshotFrame_R_geo
+    3300044: teamTile_L_tile_geo
+    3300046: teamTile_R_tile_geo
+    4300000: sponsorship_R_screen_geo
+    4300002: sponsorship_L_screen_geo
+    4300004: center_screen_geo
+    4300006: teamTile_L_tile_geo
+    4300008: teamTile_R_tile_geo
+    4300010: scoreboard_base
+    4300012: scoreboard_arrow_R_geo
+    4300014: scoreboard_arrow_L_geo
+    4300016: scoreboard_timeout_L_geo1
+    4300018: scoreboard_timeout_L_geo2
+    4300020: scoreboard_timeout_L_geo3
+    4300022: scoreboard_timeout_L_geo4
+    4300024: scoreboard_timeout_L_geo5
+    4300026: scoreboard_timeout_R_geo1
+    4300028: scoreboard_timeout_R_geo2
+    4300030: scoreboard_timeout_R_geo3
+    4300032: scoreboard_timeout_R_geo4
+    4300034: scoreboard_timeout_R_geo5
+    4300036: teamHeadshotDataFrame_R_geo
+    4300038: teamHeadshot_R_geo
+    4300040: teamHeadshotFrame_R_geo
+    4300042: teamHeadshotDataFrame_L_geo
+    4300044: teamHeadshot_L_geo
+    4300046: teamHeadshotFrame_L_geo
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
