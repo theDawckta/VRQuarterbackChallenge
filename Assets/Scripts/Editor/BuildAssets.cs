@@ -29,7 +29,7 @@ public class BuildAssets
                 suffix = "Windows";
                 break;
 
-            case BuildTarget.StandaloneOSXUniversal:
+            case BuildTarget.StandaloneOSX:
                 suffix = "OSX";
                 break;
 
@@ -73,7 +73,7 @@ public class BuildAssets
     [MenuItem("AssetBundles/Build/OSX")]
     static void BuildOSX()
     {
-        BuildBundle(assetBundleFolderPath + "OSX", BuildAssetBundleOptions.None, BuildTarget.StandaloneOSXUniversal);
+        BuildBundle(assetBundleFolderPath + "OSX", BuildAssetBundleOptions.None, BuildTarget.StandaloneOSX);
     }
 
 

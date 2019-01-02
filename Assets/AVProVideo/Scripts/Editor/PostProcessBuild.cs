@@ -15,7 +15,7 @@ namespace RenderHeads.Media.AVProVideo.Editor
 		[PostProcessBuild]
  		public static void OnPostProcessBuild(BuildTarget target, string path)
  		{
-			if (target == BuildTarget.StandaloneOSXIntel || target == BuildTarget.StandaloneOSXUniversal)
+			if (target == BuildTarget.StandaloneOSXIntel || target == BuildTarget.StandaloneOSX)
 			{
 				string message = "AVPro Video doesn't support target StandaloneOSXIntel (32-bit), please use StandaloneOSXIntel64 (64-bit) or remove this PostProcessBuild script";
 				Debug.LogError(message);

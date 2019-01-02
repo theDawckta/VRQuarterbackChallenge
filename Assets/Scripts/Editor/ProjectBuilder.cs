@@ -127,11 +127,7 @@ public class ProjectBuilder
         }
 
         // Build the project
-        string message = BuildPipeline.BuildPlayer (scenes, m_sAppFileName, buildTarget, BuildOptions.None);
-        if (!string.IsNullOrEmpty (message)) 
-        {
-            throw new UnityException (message);
-        }
+        BuildPipeline.BuildPlayer (scenes, m_sAppFileName, buildTarget, BuildOptions.None);
 	}
 
     /// <summary>

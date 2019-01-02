@@ -94,7 +94,7 @@ public static class Builder
 		PlayerSettings.Android.keyaliasName = KEYALIAS_NAME;
 		PlayerSettings.Android.keyaliasPass = KEYALIAS_PASS;
 
-		string err = BuildPipeline.BuildPlayer(newScenesToBuild.ToArray(), filePath, target, BuildOptions.None);
+        BuildPipeline.BuildPlayer(newScenesToBuild.ToArray(), filePath, target, BuildOptions.None);
 
         /*
         string bundlePath = String.Format("Bundles/{0}/", targetName);
@@ -109,8 +109,5 @@ public static class Builder
         {
             config.Revert();
         }
-
-        if (!String.IsNullOrEmpty(err))
-            throw new Exception(err);
     }
 }
