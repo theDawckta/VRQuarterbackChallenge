@@ -21,10 +21,10 @@ MonoBehaviour:
     y: 30
     width: 1680
     height: 955
-  m_MinSize: {x: 817, y: 492}
-  m_MaxSize: {x: 22012, y: 14042}
+  m_MinSize: {x: 813, y: 492}
+  m_MaxSize: {x: 22008, y: 14042}
   vertical: 0
-  controlID: 6052
+  controlID: 8475
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -127,7 +127,7 @@ MonoBehaviour:
   m_MinSize: {x: 336, y: 492}
   m_MaxSize: {x: 14006, y: 14042}
   vertical: 1
-  controlID: 6053
+  controlID: 8476
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -151,7 +151,7 @@ MonoBehaviour:
   m_MinSize: {x: 306, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 5979
+  controlID: 8477
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -268,9 +268,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.09106069, y: 0.5357151, z: -0.058250517, w: -0.8374522}
   m_Size:
-    m_Target: 59.975555
+    m_Target: 3.5003946
     speed: 2
-    m_Value: 59.975555
+    m_Value: 3.5003946
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -347,7 +347,7 @@ MonoBehaviour:
   m_MinSize: {x: 336, y: 271}
   m_MaxSize: {x: 14006, y: 10021}
   vertical: 0
-  controlID: 6054
+  controlID: 8524
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -410,20 +410,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/IntelAdPoc/Textures
+    - Assets/Scripts/Misc
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/IntelAdPoc/Textures
+  - Assets/Scripts/Misc
   m_LastFoldersGridSize: 16
   m_LastProjectPath: /Users/zekelasater/Projects/VRQuarterbackChallenge
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 351}
-    m_SelectedIDs: e0f80000
-    m_LastClickedID: 63712
-    m_ExpandedIDs: 00000000fef70000a4f8000078f90000d6fd00007efe00009afe00003cff00008a01010080020100ce04010000ca9a3b
+    scrollPos: {x: 0, y: 901}
+    m_SelectedIDs: acfa0000
+    m_LastClickedID: 64172
+    m_ExpandedIDs: 00000000fef70000a4f8000024f9000078f90000d6fd00007efe00009afe00003cff00008a0101003402010080020100ce04010000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -451,7 +451,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000fef70000a4f8000078f90000d6fd00007efe00009afe00003cff00008a01010080020100ce04010000ca9a3b
+    m_ExpandedIDs: 00000000fef70000a4f8000024f9000078f90000d6fd00007efe00009afe00003cff00008a0101003402010080020100ce04010000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -476,8 +476,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 825c0000
-    m_LastClickedInstanceID: 23682
+    m_SelectedInstanceIDs: 54060200
+    m_LastClickedInstanceID: 132692
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300003c2c00007aaefdffc4c7000040300000242d0000702d0000202d0000682d0000000000003c2f0000442f000018740200de2c00007e35000080360000e8840000
     m_RenameOverlay:
@@ -503,7 +503,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 9}
+    m_ScrollPosition: {x: 0, y: 316.5}
     m_GridSize: 16
   m_DirectoriesAreaWidth: 209
 --- !u!114 &12
@@ -608,9 +608,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 825c0000
-    m_LastClickedID: 0
-    m_ExpandedIDs: 765afbff4262fcff4862fcff406bfcff4481fcff9287fcffcc6afeff006bfeff186bfeff1c6bfeff986bfeff0e6cfeff546dfeffe46efefff48bfeffa08dfeff388ffeff3c93feff02a9feff80b2feff00000000a8610100c0610100
+    m_SelectedIDs: 54060200
+    m_LastClickedID: 132692
+    m_ExpandedIDs: 26a8f9ff80d5f9ff480bfaffdc33faff3437faffd89dfaffda9dfaffdc9dfaffdca2faff765afbff4262fcff4862fcff406bfcff4481fcff9287fcffcc6afeff006bfeff186bfeff1c6bfeff986bfeff0e6cfeff546dfeffe46efefff48bfeffa08dfeff388ffeff3c93feff02a9feff80b2feff00000000a8610100c0610100867f0100f28001001a8301000684010042bc0100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

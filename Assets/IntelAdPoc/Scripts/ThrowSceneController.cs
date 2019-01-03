@@ -53,7 +53,7 @@ public class ThrowSceneController : MonoBehaviour
 		_flashParticlesEmission.rateOverTime = 1100;
 		FlashParticles.Play();
 		SplashCanvasGroup.DOFade(0.0f, 0.5f);
-	}
+    }
 
 	private void Update()
 	{

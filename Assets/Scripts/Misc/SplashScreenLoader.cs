@@ -39,7 +39,8 @@ public class SplashScreenLoader : MonoBehaviour {
 	{
 		Application.backgroundLoadingPriority = ThreadPriority.Low;
 		BlackoutCubeAnim.FadeOut();
-	}
+        Cursor.visible = false;
+    }
 
 	void OnFadeComplete()
 	{
