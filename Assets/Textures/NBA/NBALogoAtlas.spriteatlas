@@ -3,10 +3,12 @@
 --- !u!687078895 &4343727234628468602
 SpriteAtlas:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: NBALogoAtlas
   m_EditorData:
+    serializedVersion: 2
     textureSettings:
       serializedVersion: 2
       anisoLevel: 1
@@ -18,117 +20,92 @@ SpriteAtlas:
       readable: 0
       crunchedCompression: 0
       sRGB: 1
-    platformSettings: []
-    packingParameters:
+    platformSettings:
+    - serializedVersion: 2
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 2
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+    packingSettings:
       serializedVersion: 2
       padding: 8
       blockOffset: 1
       allowAlphaSplitting: 0
       enableRotation: 0
       enableTightPacking: 0
-    packedHash:
-      serializedVersion: 2
-      Hash: a2b28906ad257294d1af09b0a5b2a5ca
     variantMultiplier: 1
-    bindAsDefault: 1
-    finalFormat: 47
-    hashString: a2b28906ad257294d1af09b0a5b2a5ca
-    totalSpriteSurfaceArea: 28660
     packables:
     - {fileID: 102900000, guid: 5ad5dbc8408f341a388290f815cff588, type: 3}
-    packedSpriteRenderDataKeys:
-    - cf018368d0fc449f89e5c7c98ff60f63: 21300000
-    - 4a4c54884526f4be9bd3a9614d7f58b1: 21300000
-    - b9896c6fb63f845d5af55aadfd999585: 21300000
-    - 69f25b235c8904b92bb080db115826ea: 21300000
-    - 7e1dc705b0fd241f2803fa0833064189: 21300000
-    - 4bdde114488ca403795b098539763eb7: 21300000
-    - 671a0643f86754ef39fc2b099f175eb7: 21300000
-    - e3bec54cde26941f0977654ddfb6c2eb: 21300000
-    - fcd88a4ed84b84c96b52322152062884: 21300000
-    - ef37b8002a0774d0e8d7960a5f047ac7: 21300000
-    - 7953234e9335a4ece9de713ec3f9f447: 21300000
-    - 44269885dbab944f4aceedbee6b0ad54: 21300000
-    - f4517c2608d5b4bc1b30ac4edeadf552: 21300000
-    - b3cb5f60d8e184c9e8f7f74352922fb6: 21300000
-    - 9f68d3742b9424ad180c7651ef405485: 21300000
-    - e93ffcf00d15a40f2923cc69e1aaba8e: 21300000
-    - 4d641c60084e342e4962ee103d3f255c: 21300000
-    - 6aded66d42c094fbe988b1ea8d4d5224: 21300000
-    - 8d1d5b370e1234102a63199ac19ad4fa: 21300000
-    - 20d67f02790684b4f89dca78dedc5556: 21300000
-    - 800b69640d7af4a569d83f48e13993cc: 21300000
-    - 75cfb9e7f6c2d484298e2afa87b1cd4e: 21300000
-    - 33a4ef300813d4bb7a298d5287a55669: 21300000
-    - ea02dfd93fd014ac8b0a80838f5b042f: 21300000
-    - bac1ed04800a44a72a86f133f2fe0117: 21300000
-    - 87e3dd8ebbe864c618bb74248f4ab460: 21300000
-    - a1fcc844fc10b417e9263c05799da2f5: 21300000
-    - 4ce16514ee746434c8c8120a185cc0ca: 21300000
-    - 1bf027f520dc14aa0b76d76027652134: 21300000
-    - cceed78a4523c4490a2f06cdf5ecb259: 21300000
+    totalSpriteSurfaceArea: 29376
+    bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
+  - {fileID: 21300000, guid: ef37b8002a0774d0e8d7960a5f047ac7, type: 3}
+  - {fileID: 21300000, guid: 33a4ef300813d4bb7a298d5287a55669, type: 3}
+  - {fileID: 21300000, guid: 4d641c60084e342e4962ee103d3f255c, type: 3}
+  - {fileID: 21300000, guid: b3cb5f60d8e184c9e8f7f74352922fb6, type: 3}
+  - {fileID: 21300000, guid: e93ffcf00d15a40f2923cc69e1aaba8e, type: 3}
+  - {fileID: 21300000, guid: 20d67f02790684b4f89dca78dedc5556, type: 3}
+  - {fileID: 21300000, guid: 69f25b235c8904b92bb080db115826ea, type: 3}
+  - {fileID: 21300000, guid: 671a0643f86754ef39fc2b099f175eb7, type: 3}
+  - {fileID: 21300000, guid: bac1ed04800a44a72a86f133f2fe0117, type: 3}
+  - {fileID: 21300000, guid: 4bdde114488ca403795b098539763eb7, type: 3}
+  - {fileID: 21300000, guid: 4ce16514ee746434c8c8120a185cc0ca, type: 3}
+  - {fileID: 21300000, guid: a1fcc844fc10b417e9263c05799da2f5, type: 3}
+  - {fileID: 21300000, guid: 800b69640d7af4a569d83f48e13993cc, type: 3}
+  - {fileID: 21300000, guid: 9f68d3742b9424ad180c7651ef405485, type: 3}
+  - {fileID: 21300000, guid: 7e1dc705b0fd241f2803fa0833064189, type: 3}
+  - {fileID: 21300000, guid: 44269885dbab944f4aceedbee6b0ad54, type: 3}
+  - {fileID: 21300000, guid: 1bf027f520dc14aa0b76d76027652134, type: 3}
+  - {fileID: 21300000, guid: f4517c2608d5b4bc1b30ac4edeadf552, type: 3}
+  - {fileID: 21300000, guid: 8d1d5b370e1234102a63199ac19ad4fa, type: 3}
+  - {fileID: 21300000, guid: 75cfb9e7f6c2d484298e2afa87b1cd4e, type: 3}
   - {fileID: 21300000, guid: cf018368d0fc449f89e5c7c98ff60f63, type: 3}
   - {fileID: 21300000, guid: 4a4c54884526f4be9bd3a9614d7f58b1, type: 3}
-  - {fileID: 21300000, guid: b9896c6fb63f845d5af55aadfd999585, type: 3}
-  - {fileID: 21300000, guid: 69f25b235c8904b92bb080db115826ea, type: 3}
-  - {fileID: 21300000, guid: 7e1dc705b0fd241f2803fa0833064189, type: 3}
-  - {fileID: 21300000, guid: 4bdde114488ca403795b098539763eb7, type: 3}
-  - {fileID: 21300000, guid: 671a0643f86754ef39fc2b099f175eb7, type: 3}
-  - {fileID: 21300000, guid: e3bec54cde26941f0977654ddfb6c2eb, type: 3}
-  - {fileID: 21300000, guid: fcd88a4ed84b84c96b52322152062884, type: 3}
-  - {fileID: 21300000, guid: ef37b8002a0774d0e8d7960a5f047ac7, type: 3}
-  - {fileID: 21300000, guid: 7953234e9335a4ece9de713ec3f9f447, type: 3}
-  - {fileID: 21300000, guid: 44269885dbab944f4aceedbee6b0ad54, type: 3}
-  - {fileID: 21300000, guid: f4517c2608d5b4bc1b30ac4edeadf552, type: 3}
-  - {fileID: 21300000, guid: b3cb5f60d8e184c9e8f7f74352922fb6, type: 3}
-  - {fileID: 21300000, guid: 9f68d3742b9424ad180c7651ef405485, type: 3}
-  - {fileID: 21300000, guid: e93ffcf00d15a40f2923cc69e1aaba8e, type: 3}
-  - {fileID: 21300000, guid: 4d641c60084e342e4962ee103d3f255c, type: 3}
-  - {fileID: 21300000, guid: 6aded66d42c094fbe988b1ea8d4d5224, type: 3}
-  - {fileID: 21300000, guid: 8d1d5b370e1234102a63199ac19ad4fa, type: 3}
-  - {fileID: 21300000, guid: 20d67f02790684b4f89dca78dedc5556, type: 3}
-  - {fileID: 21300000, guid: 800b69640d7af4a569d83f48e13993cc, type: 3}
-  - {fileID: 21300000, guid: 75cfb9e7f6c2d484298e2afa87b1cd4e, type: 3}
-  - {fileID: 21300000, guid: 33a4ef300813d4bb7a298d5287a55669, type: 3}
   - {fileID: 21300000, guid: ea02dfd93fd014ac8b0a80838f5b042f, type: 3}
-  - {fileID: 21300000, guid: bac1ed04800a44a72a86f133f2fe0117, type: 3}
-  - {fileID: 21300000, guid: 87e3dd8ebbe864c618bb74248f4ab460, type: 3}
-  - {fileID: 21300000, guid: a1fcc844fc10b417e9263c05799da2f5, type: 3}
-  - {fileID: 21300000, guid: 4ce16514ee746434c8c8120a185cc0ca, type: 3}
-  - {fileID: 21300000, guid: 1bf027f520dc14aa0b76d76027652134, type: 3}
   - {fileID: 21300000, guid: cceed78a4523c4490a2f06cdf5ecb259, type: 3}
+  - {fileID: 21300000, guid: e3bec54cde26941f0977654ddfb6c2eb, type: 3}
+  - {fileID: 21300000, guid: 6aded66d42c094fbe988b1ea8d4d5224, type: 3}
+  - {fileID: 21300000, guid: 7953234e9335a4ece9de713ec3f9f447, type: 3}
+  - {fileID: 21300000, guid: fcd88a4ed84b84c96b52322152062884, type: 3}
+  - {fileID: 21300000, guid: 87e3dd8ebbe864c618bb74248f4ab460, type: 3}
+  - {fileID: 21300000, guid: b9896c6fb63f845d5af55aadfd999585, type: 3}
   m_PackedSpriteNamesToIndex:
+  - hornets
+  - bucks
+  - bulls
+  - pacers
+  - celtics
+  - suns
+  - 76ers
+  - pistons
+  - nuggets
+  - wizards
+  - magic
+  - lakers
+  - knicks
+  - trail blazers
+  - warriors
+  - heat
+  - thunder
+  - grizzlies
+  - cavaliers
+  - spurs
   - raptors
   - clippers
-  - hawks
-  - 76ers
-  - warriors
-  - wizards
-  - pistons
-  - timberwolves
-  - mavericks
-  - hornets
-  - nets
-  - heat
-  - grizzlies
-  - pacers
-  - trail blazers
-  - celtics
-  - bulls
-  - kings
-  - cavaliers
-  - suns
-  - knicks
-  - spurs
-  - bucks
   - rockets
-  - nuggets
-  - jazz
-  - lakers
-  - magic
-  - thunder
   - pelicans
+  - timberwolves
+  - kings
+  - nets
+  - mavericks
+  - jazz
+  - hawks
   m_Tag: NBALogoAtlas
   m_IsVariant: 0

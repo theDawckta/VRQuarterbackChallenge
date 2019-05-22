@@ -43,10 +43,7 @@ public class ReticleController : MonoBehaviour
 
 	void Awake()
 	{
-        if (ResourceManager.Instance != null)
-            ReticleCamera = ResourceManager.Instance.MainCamera.transform;
-        else
-            ReticleCamera = Camera.main.transform;
+        ReticleCamera = Camera.main.transform;
 		float distance = (transform.position - ReticleCamera.position).magnitude;
 		if (GVRControllerPointer != null)
 		{
@@ -413,14 +410,10 @@ public class ReticleController : MonoBehaviour
 	private void OnEnable()
 	{
 		EnableEvents();
-		EventManager.OnEnableUserClick += EnableEvents;
-		EventManager.OnDisableUserClick += DisableEvents;
 	}
 
 	private void OnDisable()
 	{
 		DisableEvents();
-		EventManager.OnEnableUserClick -= EnableEvents;
-		EventManager.OnDisableUserClick -= DisableEvents;
 	}
 }

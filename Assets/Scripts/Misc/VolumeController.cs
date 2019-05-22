@@ -43,11 +43,6 @@ public class VolumeController : MonoBehaviour
 
         AudioListener.pause = mute;
 
-		if (ResourceManager.Instance.MediaPlayer != null)
-        {
-			ResourceManager.Instance.MediaPlayer.SetMute(mute);
-        }
-
         OnAudioStatusChanged(audioOn);
     }
 

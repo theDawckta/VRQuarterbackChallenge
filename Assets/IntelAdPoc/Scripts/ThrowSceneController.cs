@@ -231,7 +231,6 @@ public class ThrowSceneController : MonoBehaviour
 	IEnumerator DelayedSceneLoad(string sceneToLoad)
 	{
 		//disable our ability to click hardware buttons
-		EventManager.Instance.DisableUserClickEvent();
 		// delay one frame to make sure everything has initialized
 		yield return 0;
 		if (Reticle != null)

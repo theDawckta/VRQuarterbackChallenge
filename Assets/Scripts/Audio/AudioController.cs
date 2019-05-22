@@ -52,9 +52,6 @@ public class AudioController : MonoBehaviour
 
     void OnEnable()
     {
-        EventManager.OnDrawTilesComplete += OnDrawTilesComplete;
-        EventManager.OnBackgroundAudioTrigger += EventManager_OnBackgroundAudioTrigger;
-        EventManager.OnSwitchToConsumption += EventManager_OnSwitchToConsumption;
         _VolumeController.AudioStatusChanged += VolumeController_AudioStatusChanged;
         UserPresenceController.Instance.PresenceChanged += Instance_PresenceChanged;
     }
@@ -66,9 +63,6 @@ public class AudioController : MonoBehaviour
             _VolumeController.AudioStatusChanged -= VolumeController_AudioStatusChanged;
             UserPresenceController.Instance.PresenceChanged -= Instance_PresenceChanged;
         }
-        EventManager.OnDrawTilesComplete -= OnDrawTilesComplete;
-        EventManager.OnBackgroundAudioTrigger -= EventManager_OnBackgroundAudioTrigger;
-        EventManager.OnSwitchToConsumption -= EventManager_OnSwitchToConsumption;
     }
 
     /// <summary>

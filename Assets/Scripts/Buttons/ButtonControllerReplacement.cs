@@ -559,8 +559,6 @@ public class ButtonControllerReplacement : MonoBehaviour
     {
         _interactible.OnClick += ButtonClicked;
         _interactible.OnOver += HandleOver;
-        EventManager.OnEnableUserClick += Enable;
-        EventManager.OnDisableUserClick += DisableAction;
     }
 
     void OnDisable()
@@ -572,7 +570,5 @@ public class ButtonControllerReplacement : MonoBehaviour
         _interactible.OnClick -= ButtonClicked;
         _interactible.OnOver -= HandleOver;
         _interactible.OnOut -= HandleOut;
-        EventManager.OnEnableUserClick -= Enable;
-        EventManager.OnDisableUserClick -= DisableAction;
     }
 }

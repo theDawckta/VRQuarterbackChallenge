@@ -22,13 +22,11 @@ public class SceneChanger : Singleton<SceneChanger>
 
     public Coroutine FadeToConsumptionAsync()
     {
-		EventManager.Instance.SwitchToConsumptionEvent();
         return FadeToSceneAsync("ConsumptionScene");
     }
 
 	public Coroutine FadeToShoulderContentAsync()
 	{
-		EventManager.Instance.SwitchToShoulderContentEvent();
 		return FadeToSceneAsync("ShoulderContentScene");
 	}
 

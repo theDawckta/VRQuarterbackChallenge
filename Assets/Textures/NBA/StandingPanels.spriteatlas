@@ -3,10 +3,12 @@
 --- !u!687078895 &4343727234628468602
 SpriteAtlas:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: StandingPanels
   m_EditorData:
+    serializedVersion: 2
     textureSettings:
       serializedVersion: 2
       anisoLevel: 1
@@ -18,28 +20,31 @@ SpriteAtlas:
       readable: 0
       crunchedCompression: 0
       sRGB: 1
-    platformSettings: []
-    packingParameters:
+    platformSettings:
+    - serializedVersion: 2
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 256
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+    packingSettings:
       serializedVersion: 2
       padding: 8
       blockOffset: 1
       allowAlphaSplitting: 0
       enableRotation: 0
       enableTightPacking: 0
-    packedHash:
-      serializedVersion: 2
-      Hash: d9fa1e94f6d362c085a9c01baa70e555
     variantMultiplier: 1
-    bindAsDefault: 1
-    finalFormat: 47
-    hashString: d9fa1e94f6d362c085a9c01baa70e555
-    totalSpriteSurfaceArea: 60928
     packables:
     - {fileID: 2800000, guid: 81d970a5872d34d33ad1a2eb82ea6b41, type: 3}
     - {fileID: 2800000, guid: 99e853eefe3514574833f6771a1a1989, type: 3}
-    packedSpriteRenderDataKeys:
-    - 81d970a5872d34d33ad1a2eb82ea6b41: 21300000
-    - 99e853eefe3514574833f6771a1a1989: 21300000
+    totalSpriteSurfaceArea: 61440
+    bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300000, guid: 81d970a5872d34d33ad1a2eb82ea6b41, type: 3}

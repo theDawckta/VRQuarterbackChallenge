@@ -61,8 +61,6 @@ public class ButtonController : MonoBehaviour
         _interactible.OnClick += ButtonClicked;
 		_interactible.OnOver += HandleOver;
         _interactible.OnOut += HandleOut;
-        EventManager.OnEnableUserClick += OnEnableUserClick;
-        EventManager.OnDisableUserClick += OnDisableUserClick;
     }
 
     void OnDisable()
@@ -70,8 +68,6 @@ public class ButtonController : MonoBehaviour
 		_interactible.OnClick -= ButtonClicked;
 		_interactible.OnOver -= HandleOver;
         _interactible.OnOut -= HandleOut;
-        EventManager.OnEnableUserClick -= OnEnableUserClick;
-        EventManager.OnDisableUserClick -= OnDisableUserClick;
     }
 
     public void Enable()

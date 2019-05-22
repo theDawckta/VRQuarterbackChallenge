@@ -21,7 +21,6 @@ public class UIController : MonoBehaviour
     public TextMeshPro Score;
 	public StartScreenController StartScreen;
 	public GameObject ButtonHolder;
-	public ThreeDButtonController RightButton;
 	public ThreeDButtonController LeftButton;
 	public ButtonControllerReplacement BackToSuite;
     public HighScoresController HighScores;
@@ -120,13 +119,11 @@ public class UIController : MonoBehaviour
 
     public void HideButtons()
 	{
-		RightButton.HideButton();
 		LeftButton.HideButton();
 	}
 
 	public void ShowButtons(float delay = 0.0f)
 	{
-		RightButton.ShowButton(delay);
         LeftButton.ShowButton(delay);
 	}
 
@@ -173,8 +170,6 @@ public class UIController : MonoBehaviour
         HighScores.OnHighScoreEntryDone += OnHighScoreEntryDone;
         HighScores.OnHighScoreNotAchieved += OnHighScoreEntryNotAchieved;
 		LeftButton.OnButtonClicked += StartButtonClicked;
-		RightButton.OnButtonClicked += BackButtonClicked;
-		BackToSuite.OnButtonClicked += BackButtonClicked;
 		Countdown.OnCountdownOver += CountdownOver;
 	}
 
@@ -183,8 +178,6 @@ public class UIController : MonoBehaviour
         HighScores.OnHighScoreEntryDone -= OnHighScoreEntryDone;
         HighScores.OnHighScoreNotAchieved -= OnHighScoreEntryNotAchieved;
 		LeftButton.OnButtonClicked -= StartButtonClicked;
-		RightButton.OnButtonClicked -= BackButtonClicked;
-		BackToSuite.OnButtonClicked -= BackButtonClicked;
 		Countdown.OnCountdownOver -= CountdownOver;
 	}
 }
