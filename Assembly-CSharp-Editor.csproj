@@ -63,30 +63,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\AVProVideo\Scripts\Editor\DisplayUGUIEditor.cs" />
-    <Compile Include="Assets\AVProVideo\Scripts\Editor\MediaPlayerEditor.cs" />
-    <Compile Include="Assets\AVProVideo\Scripts\Editor\PostProcessBuild.cs" />
     <Compile Include="Assets\Handcrafted Mobile\CurvedVRKeyboard\Resources\Scripts\Editor\KeyboardCreatorEditor.cs" />
     <Compile Include="Assets\Handcrafted Mobile\CurvedVRKeyboard\Resources\Scripts\Editor\KeyboardStatusEditor.cs" />
     <Compile Include="Assets\JMO Assets\Cartoon FX Easy Editor\Editor\CFXEasyEditor.cs" />
-    <Compile Include="Assets\OculusPlatform\Editor\GUIHelper.cs" />
-    <Compile Include="Assets\OculusPlatform\Editor\OculusPlatformSettingsEditor.cs" />
-    <Compile Include="Assets\OVR\Editor\OVRBuild.cs" />
-    <Compile Include="Assets\OVR\Editor\OVRManifestPreprocessor.cs" />
-    <Compile Include="Assets\OVR\Editor\OVRMoonlightLoader.cs" />
-    <Compile Include="Assets\OVR\Editor\OVRPluginUpdater.cs" />
-    <Compile Include="Assets\OVR\Editor\OVRPluginUpdaterStub.cs" />
-    <Compile Include="Assets\OVR\Editor\OVRScreenshotWizard.cs" />
-    <Compile Include="Assets\Scripts\CurvedUI\Editor\CurvedUISettingsEditor.cs" />
-    <Compile Include="Assets\Scripts\Editor\BuildAssets.cs" />
-    <Compile Include="Assets\Scripts\Editor\Builder.cs" />
-    <Compile Include="Assets\Scripts\Editor\ProjectBuilder.cs" />
-    <Compile Include="Assets\Scripts\Editor\ProjectConfiguration.cs" />
-    <Compile Include="Assets\Scripts\Editor\ProjectConfigurationEditor.cs" />
-    <Compile Include="Assets\Scripts\Editor\TextConverter.cs" />
-    <Compile Include="Assets\Scripts\JackalopeVR\Editor\CylindricalScreenEditor.cs" />
-    <Compile Include="Assets\Scripts\JackalopeVR\Editor\SphericalScreenEditor.cs" />
-    <None Include="Assets\OVR\Editor\AndroidManifest.OVRSubmission.xml" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/Zeke/Documents/GitHub/VRQuarterbackChallenge/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
@@ -354,9 +333,6 @@
     <Reference Include="JMOAssets">
       <HintPath>C:/Users/Zeke/Documents/GitHub/VRQuarterbackChallenge/Assets/JMO Assets/Editor/JMOAssets.dll</HintPath>
     </Reference>
-    <Reference Include="Google.ProtocolBuffers">
-      <HintPath>C:/Users/Zeke/Documents/GitHub/VRQuarterbackChallenge/Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>
-    </Reference>
     <Reference Include="TextMeshPro-1.0.55.56.0b11">
       <HintPath>C:/Users/Zeke/Documents/GitHub/VRQuarterbackChallenge/Assets/TextMesh Pro/Plugins/TextMeshPro-1.0.55.56.0b11.dll</HintPath>
     </Reference>
@@ -407,17 +383,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{87A3A049-36ED-F963-02FB-55AF70266220}</Project>
-      <Name>Assembly-CSharp-firstpass</Name>
-    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{7832E966-844B-8E9A-A295-C4E62D12EEFD}</Project>
       <Name>Assembly-CSharp</Name>
-    </ProjectReference>
-    <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
-      <Project>{AB9283CB-5110-B8AB-CD89-B0CEA7D40B3F}</Project>
-      <Name>Assembly-CSharp-Editor-firstpass</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
